@@ -1,0 +1,801 @@
+/* SONI, PARTH VIJAYKUMAR- 1002053647
+SUNKU, SUMEGHANA - 1002063330
+KAMISETTY, MUNI HESHWANT KUMAR - 1002129854
+SINGAREDDY, AKSHITHA - 1002073447
+SURNENI, SUMANTH ESHWAR SAI - 1002087310 */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+#top-navbar {
+    background-color: #b0b0b0;
+    color: black;
+    text-align: center;
+    padding: 1em;
+}
+
+#top-navbar h1 {
+    margin: 0 auto;
+    /* Center the text horizontally using margin */
+    max-width: 400px;
+    /* Adjust the max-width to your preference */
+}
+
+.error-message {
+    color: red;
+}
+
+/* #top-navbar h1 {
+    margin: 10;
+} */
+
+#wrapper {
+    display: flex;
+    min-height: 100vh;
+}
+
+#sidebar {
+    width: 150px;
+    background-color: #595959;
+    color: rgb(154, 154, 154);
+    padding: 1em;
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    z-index: 2;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 0.5em;
+}
+
+#sidebar ul li a:hover {
+    background-color: #808080;
+}
+
+#main-content {
+    flex-grow: 1;
+    padding: 1em;
+    margin-left: 260px;
+    padding-top: 10em;
+    padding-bottom: 5em;
+
+}
+
+#student-info img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#wrapper {
+    display: flex;
+    min-height: 100vh;
+}
+
+#student-info {
+    padding: 20px;
+}
+
+.course-card {
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.course-card img {
+    width: 100%;
+    height: auto;
+}
+
+.course-card h2 {
+    padding-top: 4px;
+    text-align: center;
+}
+
+/* Course Header */
+#course-header img {
+    width: 100%;
+    height: auto;
+}
+
+#course-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+#course-actions button {
+    padding: 15px;
+    font-size: 16px;
+    text-align: left;
+    width: 100%;
+}
+
+#course-grade {
+    margin: 20px 0;
+}
+
+i.fas {
+    margin-right: 10px;
+}
+
+
+/* Grade Header */
+#grade-header {
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Student Details */
+#student-details {
+    margin: 20px 0;
+    padding: 10px;
+}
+
+/* Grade Table */
+#grade-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#grade-table th,
+#grade-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+#grade-table th {
+    background-color: #f2f2f2;
+}
+
+/* Contacts */
+#contacts {
+    width: 30%;
+    float: left;
+    border-right: 1px solid #ccc;
+    height: 100vh;
+}
+
+.contact {
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+/* Chat Box */
+#chat-box {
+    width: 70%;
+    float: left;
+    padding: 20px;
+}
+
+.message {
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.received {
+    background-color: #f2f2f2;
+    align-self: flex-start;
+}
+
+.sent {
+    background-color: #4CAF50;
+    color: white;
+    align-self: flex-end;
+}
+
+/* Clear floats */
+#messenger::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#message-input {
+    position: absolute;
+    bottom: 0;
+    width: 60%;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+    display: flex;
+}
+
+#message-text {
+    flex: 1;
+    padding: 10px;
+    border: none;
+}
+
+#send-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#send-button:hover {
+    background-color: #45a049;
+}
+
+/* ... Existing styles ... */
+
+.exam-card {
+    background-color: #f5f5f5;
+    padding: 15px;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.exam-icon {
+    font-size: 36px;
+    margin-right: 10px;
+}
+
+.page-heading {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Existing table styles */
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    width: 60px;
+}
+
+#sidebar {
+    background-color: #333;
+    color: white;
+    width: 200px;
+    position: fixed;
+    height: 100%;
+}
+
+#main-content {
+    margin-left: 210px;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    width: 30%;
+}
+
+
+/* Main Content Styles */
+#main-content {
+    margin-left: 210px;
+    padding: 20px;
+}
+
+/* Table Styles */
+#courseTable {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+#courseTable th,
+#courseTable td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+/* Add New Course Button Style */
+#addCourseBtn {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Reuse existing sidebar and main-content styles */
+
+/* Table Styles */
+#userTable {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+#userTable th,
+#userTable td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+/* Add New User Button Style */
+#addUserBtn {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Existing sidebar and main-content styles */
+
+/* Analytics Styles */
+.analytics-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.metric {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 20px;
+}
+
+.chart-container {
+    flex: 2;
+    height: 400px;
+    width: 600px;
+    margin: 20px;
+}
+
+/* Reset some default styles */
+body,
+h1,
+h2,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Style the hero section */
+#hero {
+    background-color: #eee;
+    color: #333;
+    padding: 2em;
+    text-align: center;
+}
+
+/* Style features */
+#features {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    background-color: #f5f5f5;
+}
+
+.feature-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1em;
+    width: 30%;
+}
+
+/* Style footer */
+
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    /* This removes the underline */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Generic styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f6f6f6;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    background-color: #fff;
+    margin: 50px auto;
+    padding: 20px;
+    width: 50%;
+    box-shadow: 0px 0px 20px 0px grey;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+nav ul {
+    background-color: #333;
+    overflow: hidden;
+    color: white;
+}
+
+nav ul li {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+h1,
+h2 {
+    color: #333;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+/* Main Content */
+#main-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+/* Dropdown */
+#course-dropdown {
+    margin-bottom: 20px;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Dashboard Widgets */
+#dashboard-widgets {
+    display: flex;
+    justify-content: space-around;
+}
+
+.widget {
+    flex: 1;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+}
+
+/* To-Do List */
+#to-do-list {
+    margin: 20px 0;
+}
+
+#to-do-list ul {
+    list-style-type: disc;
+    margin-left: 40px;
+}
+
+/* Calendar */
+#calendar {
+    margin: 20px 0;
+}
+
+/* Spotlights */
+#spotlight {
+    display: flex;
+    justify-content: space-between;
+}
+
+#faculty-spotlight,
+#student-spotlight {
+    flex: 1;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Summary Stats */
+#summary-stats {
+    margin: 20px 0;
+}
+
+#academic-programs {
+    margin-top: 20px;
+}
+
+.programs-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.program {
+    background: #f9f9f9;
+    border: 1px solid #e1e1e1;
+    padding: 10px;
+    border-radius: 8px;
+    width: calc(33% - 20px);
+}
+
+.program h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.program p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+/* Responsive styles if needed */
+@media (max-width: 768px) {
+    .program {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .program {
+        width: 100%;
+    }
+}
+
+.enroll-button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-left: 20%;
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.enroll-button:hover {
+    background-color: #61a564;
+}
+
+.empty-chat-message {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+    padding: 20px;
+}
+
+#message-input {
+    display: flex;
+    align-items: center;
+}
+
+#send-button:hover {
+    background-color: #26772a;
+}
+
+.ai-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Add Matrix-style loading animation */
+.loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+.loader {
+    font-family: monospace;
+    color: green;
+    font-size: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+}
+
+.loader::after {
+    content: '|';
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}

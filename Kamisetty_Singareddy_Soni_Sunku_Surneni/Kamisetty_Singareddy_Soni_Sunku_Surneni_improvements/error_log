@@ -1,0 +1,911 @@
+[30-Oct-2023 15:13:06 UTC] PHP Warning:  Undefined array key "role" in /home/sxs3330/public_html/wdm/auth.php on line 17
+[30-Oct-2023 15:13:06 UTC] PHP Warning:  Undefined array key "username" in /home/sxs3330/public_html/wdm/auth.php on line 18
+[30-Oct-2023 15:13:06 UTC] PHP Warning:  Undefined array key "email" in /home/sxs3330/public_html/wdm/auth.php on line 19
+[30-Oct-2023 15:13:06 UTC] PHP Warning:  Undefined array key "password" in /home/sxs3330/public_html/wdm/auth.php on line 20
+[30-Oct-2023 15:13:06 UTC] PHP Warning:  Undefined array key "confirmPassword" in /home/sxs3330/public_html/wdm/auth.php on line 21
+[30-Oct-2023 15:13:29 UTC] PHP Warning:  Undefined array key "role" in /home/sxs3330/public_html/wdm/auth.php on line 17
+[30-Oct-2023 15:13:29 UTC] PHP Warning:  Undefined array key "username" in /home/sxs3330/public_html/wdm/auth.php on line 18
+[30-Oct-2023 15:13:29 UTC] PHP Warning:  Undefined array key "email" in /home/sxs3330/public_html/wdm/auth.php on line 19
+[30-Oct-2023 15:13:29 UTC] PHP Warning:  Undefined array key "password" in /home/sxs3330/public_html/wdm/auth.php on line 20
+[30-Oct-2023 15:13:29 UTC] PHP Warning:  Undefined array key "confirmPassword" in /home/sxs3330/public_html/wdm/auth.php on line 21
+[30-Oct-2023 15:44:38 UTC] PHP Warning:  Undefined variable $servername in /home/sxs3330/public_html/wdm/courses.php on line 9
+[30-Oct-2023 15:59:48 UTC] PHP Warning:  Undefined variable $db_name in /home/sxs3330/public_html/wdm/Exams.php on line 16
+[30-Oct-2023 15:59:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected in /home/sxs3330/public_html/wdm/Exams.php:36
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Exams.php(36): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Exams.php on line 36
+[30-Oct-2023 16:05:43 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/sxs3330/public_html/wdm/Grades.php on line 44
+[30-Oct-2023 16:05:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::close() in /home/sxs3330/public_html/wdm/Grades.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/sxs3330/public_html/wdm/Grades.php on line 80
+[30-Oct-2023 16:09:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/Grades.php:1) in /home/sxs3330/public_html/wdm/Grades.php on line 4
+[30-Oct-2023 16:09:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/Grades.php:1) in /home/sxs3330/public_html/wdm/Grades.php on line 5
+[30-Oct-2023 16:09:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/Grades.php:1) in /home/sxs3330/public_html/wdm/Grades.php on line 6
+[30-Oct-2023 16:09:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/Grades.php:1) in /home/sxs3330/public_html/wdm/Grades.php on line 7
+[30-Oct-2023 16:14:31 UTC] PHP Warning:  Undefined array key "id" in /home/sxs3330/public_html/wdm/auth.php on line 73
+[30-Oct-2023 16:18:35 UTC] PHP Warning:  file_get_contents(users.json): Failed to open stream: No such file or directory in /home/sxs3330/public_html/wdm/Users.php on line 4
+[30-Oct-2023 16:18:35 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/Users.php on line 21
+[30-Oct-2023 19:35:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 22
+[30-Oct-2023 19:35:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 23
+[30-Oct-2023 19:35:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 24
+[30-Oct-2023 19:35:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 25
+[30-Oct-2023 19:35:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 26
+[30-Oct-2023 19:37:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 26
+[30-Oct-2023 19:37:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 27
+[30-Oct-2023 19:37:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 28
+[30-Oct-2023 19:37:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 29
+[30-Oct-2023 19:37:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 30
+[30-Oct-2023 21:21:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 26
+[30-Oct-2023 21:21:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 27
+[30-Oct-2023 21:21:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 28
+[30-Oct-2023 21:21:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 29
+[30-Oct-2023 21:21:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 30
+[30-Oct-2023 21:22:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 26
+[30-Oct-2023 21:22:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 27
+[30-Oct-2023 21:22:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 28
+[30-Oct-2023 21:22:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 29
+[30-Oct-2023 21:22:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 30
+[30-Oct-2023 21:55:03 UTC] PHP Parse error:  syntax error, unexpected token "default", expecting end of file in /home/sxs3330/public_html/wdm/pc.php on line 64
+[30-Oct-2023 21:56:47 UTC] PHP Parse error:  syntax error, unexpected variable "$action", expecting "case" or "default" or "}" in /home/sxs3330/public_html/wdm/pc.php on line 25
+[30-Oct-2023 21:58:52 UTC] PHP Warning:  Undefined array key "user_id" in /home/sxs3330/public_html/wdm/todo.php on line 38
+[30-Oct-2023 21:59:06 UTC] PHP Warning:  Undefined array key "user_id" in /home/sxs3330/public_html/wdm/todo.php on line 38
+[30-Oct-2023 22:15:53 UTC] PHP Warning:  Undefined variable $additionalInfo in /home/sxs3330/public_html/wdm/Users.php on line 62
+[30-Oct-2023 22:20:55 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 26
+[30-Oct-2023 22:20:55 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 27
+[30-Oct-2023 22:20:55 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 28
+[30-Oct-2023 22:20:55 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 29
+[30-Oct-2023 22:20:55 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 30
+[31-Oct-2023 02:14:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 26
+[31-Oct-2023 02:14:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 27
+[31-Oct-2023 02:14:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 28
+[31-Oct-2023 02:14:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 29
+[31-Oct-2023 02:14:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 30
+[31-Oct-2023 02:14:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 26
+[31-Oct-2023 02:14:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 27
+[31-Oct-2023 02:14:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 28
+[31-Oct-2023 02:14:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 29
+[31-Oct-2023 02:14:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 30
+[31-Oct-2023 02:15:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 26
+[31-Oct-2023 02:15:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 27
+[31-Oct-2023 02:15:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 28
+[31-Oct-2023 02:15:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 29
+[31-Oct-2023 02:15:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 30
+[31-Oct-2023 02:16:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 26
+[31-Oct-2023 02:16:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 27
+[31-Oct-2023 02:16:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 28
+[31-Oct-2023 02:16:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 29
+[31-Oct-2023 02:16:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 30
+[31-Oct-2023 02:18:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 26
+[31-Oct-2023 02:18:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 27
+[31-Oct-2023 02:18:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 28
+[31-Oct-2023 02:18:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 29
+[31-Oct-2023 02:18:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 30
+[31-Oct-2023 02:19:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 26
+[31-Oct-2023 02:19:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 27
+[31-Oct-2023 02:19:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 28
+[31-Oct-2023 02:19:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 29
+[31-Oct-2023 02:19:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 30
+[31-Oct-2023 02:25:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 26
+[31-Oct-2023 02:25:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 27
+[31-Oct-2023 02:25:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 28
+[31-Oct-2023 02:25:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 29
+[31-Oct-2023 02:25:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 30
+[31-Oct-2023 02:25:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 26
+[31-Oct-2023 02:25:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 27
+[31-Oct-2023 02:25:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 28
+[31-Oct-2023 02:25:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 29
+[31-Oct-2023 02:25:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 30
+[31-Oct-2023 02:25:11 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 26
+[31-Oct-2023 02:25:11 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 27
+[31-Oct-2023 02:25:11 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 28
+[31-Oct-2023 02:25:11 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 29
+[31-Oct-2023 02:25:11 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 30
+[31-Oct-2023 20:55:15 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 26
+[31-Oct-2023 20:55:15 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 27
+[31-Oct-2023 20:55:15 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 28
+[31-Oct-2023 20:55:15 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 29
+[31-Oct-2023 20:55:15 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 30
+[31-Oct-2023 20:55:43 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 26
+[31-Oct-2023 20:55:43 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 27
+[31-Oct-2023 20:55:43 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 28
+[31-Oct-2023 20:55:43 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 29
+[31-Oct-2023 20:55:43 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 30
+[31-Oct-2023 20:55:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 26
+[31-Oct-2023 20:55:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 27
+[31-Oct-2023 20:55:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 28
+[31-Oct-2023 20:55:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 29
+[31-Oct-2023 20:55:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 30
+[31-Oct-2023 20:58:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 26
+[31-Oct-2023 20:58:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 27
+[31-Oct-2023 20:58:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 28
+[31-Oct-2023 20:58:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 29
+[31-Oct-2023 20:58:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 30
+[31-Oct-2023 21:03:34 UTC] PHP Warning:  Undefined array key "email" in /home/sxs3330/public_html/wdm/Users.php on line 87
+[31-Oct-2023 21:03:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null in /home/sxs3330/public_html/wdm/Users.php:89
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(89): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 89
+[31-Oct-2023 21:03:36 UTC] PHP Warning:  Undefined array key "email" in /home/sxs3330/public_html/wdm/Users.php on line 87
+[31-Oct-2023 21:03:36 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null in /home/sxs3330/public_html/wdm/Users.php:89
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(89): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 89
+[31-Oct-2023 21:03:36 UTC] PHP Warning:  Undefined array key "email" in /home/sxs3330/public_html/wdm/Users.php on line 87
+[31-Oct-2023 21:03:36 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null in /home/sxs3330/public_html/wdm/Users.php:89
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(89): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 89
+[31-Oct-2023 21:03:37 UTC] PHP Warning:  Undefined array key "email" in /home/sxs3330/public_html/wdm/Users.php on line 87
+[31-Oct-2023 21:03:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null in /home/sxs3330/public_html/wdm/Users.php:89
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(89): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 89
+[31-Oct-2023 21:03:37 UTC] PHP Warning:  Undefined array key "email" in /home/sxs3330/public_html/wdm/Users.php on line 87
+[31-Oct-2023 21:03:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null in /home/sxs3330/public_html/wdm/Users.php:89
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(89): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 89
+[31-Oct-2023 21:03:37 UTC] PHP Warning:  Undefined array key "email" in /home/sxs3330/public_html/wdm/Users.php on line 87
+[31-Oct-2023 21:03:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null in /home/sxs3330/public_html/wdm/Users.php:89
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(89): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 89
+[31-Oct-2023 23:27:25 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 26
+[31-Oct-2023 23:27:25 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 27
+[31-Oct-2023 23:27:25 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 28
+[31-Oct-2023 23:27:25 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 29
+[31-Oct-2023 23:27:25 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 30
+[31-Oct-2023 23:27:38 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 26
+[31-Oct-2023 23:27:38 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 27
+[31-Oct-2023 23:27:38 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 28
+[31-Oct-2023 23:27:38 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 29
+[31-Oct-2023 23:27:38 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 30
+[31-Oct-2023 23:28:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 26
+[31-Oct-2023 23:28:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 27
+[31-Oct-2023 23:28:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 28
+[31-Oct-2023 23:28:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 29
+[31-Oct-2023 23:28:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 30
+[03-Nov-2023 21:35:07 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 26
+[03-Nov-2023 21:35:07 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 27
+[03-Nov-2023 21:35:07 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 28
+[03-Nov-2023 21:35:07 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 29
+[03-Nov-2023 21:35:07 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 30
+[03-Nov-2023 21:38:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 26
+[03-Nov-2023 21:38:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 27
+[03-Nov-2023 21:38:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 28
+[03-Nov-2023 21:38:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 29
+[03-Nov-2023 21:38:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 30
+[03-Nov-2023 21:48:14 UTC] PHP Warning:  Undefined array key "role" in /home/sxs3330/public_html/wdm/Users.php on line 89
+[03-Nov-2023 21:48:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'role' cannot be null in /home/sxs3330/public_html/wdm/Users.php:89
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(89): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 89
+[03-Nov-2023 21:48:19 UTC] PHP Warning:  Undefined array key "role" in /home/sxs3330/public_html/wdm/Users.php on line 89
+[03-Nov-2023 21:48:19 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'role' cannot be null in /home/sxs3330/public_html/wdm/Users.php:89
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(89): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 89
+[03-Nov-2023 23:07:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 26
+[03-Nov-2023 23:07:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 27
+[03-Nov-2023 23:07:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 28
+[03-Nov-2023 23:07:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 29
+[03-Nov-2023 23:07:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 30
+[03-Nov-2023 23:40:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/admin.php:1) in /home/sxs3330/public_html/wdm/admin.php on line 4
+[03-Nov-2023 23:40:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/admin.php:1) in /home/sxs3330/public_html/wdm/admin.php on line 5
+[03-Nov-2023 23:40:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/admin.php:1) in /home/sxs3330/public_html/wdm/admin.php on line 6
+[03-Nov-2023 23:40:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/admin.php:1) in /home/sxs3330/public_html/wdm/admin.php on line 7
+[03-Nov-2023 23:41:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/admin.php:1) in /home/sxs3330/public_html/wdm/admin.php on line 4
+[03-Nov-2023 23:41:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/admin.php:1) in /home/sxs3330/public_html/wdm/admin.php on line 5
+[03-Nov-2023 23:41:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/admin.php:1) in /home/sxs3330/public_html/wdm/admin.php on line 6
+[03-Nov-2023 23:41:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/admin.php:1) in /home/sxs3330/public_html/wdm/admin.php on line 7
+[03-Nov-2023 23:41:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/admin.php:1) in /home/sxs3330/public_html/wdm/admin.php on line 4
+[03-Nov-2023 23:41:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/admin.php:1) in /home/sxs3330/public_html/wdm/admin.php on line 5
+[03-Nov-2023 23:41:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/admin.php:1) in /home/sxs3330/public_html/wdm/admin.php on line 6
+[03-Nov-2023 23:41:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/admin.php:1) in /home/sxs3330/public_html/wdm/admin.php on line 7
+[03-Nov-2023 23:41:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/admin.php:1) in /home/sxs3330/public_html/wdm/admin.php on line 4
+[03-Nov-2023 23:41:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/admin.php:1) in /home/sxs3330/public_html/wdm/admin.php on line 5
+[03-Nov-2023 23:41:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/admin.php:1) in /home/sxs3330/public_html/wdm/admin.php on line 6
+[03-Nov-2023 23:41:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/admin.php:1) in /home/sxs3330/public_html/wdm/admin.php on line 7
+[04-Nov-2023 03:24:30 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'degree_type' at row 1 in /home/sxs3330/public_html/wdm/academic_program.php:36
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/academic_program.php(36): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/academic_program.php on line 36
+[04-Nov-2023 04:01:20 UTC] PHP Warning:  Undefined variable $user_id in /home/sxs3330/public_html/wdm/academic_program.php on line 43
+[05-Nov-2023 07:01:24 UTC] PHP Warning:  Undefined array key "email" in /home/sxs3330/public_html/wdm/Users.php on line 87
+[05-Nov-2023 07:01:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null in /home/sxs3330/public_html/wdm/Users.php:89
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(89): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 89
+[05-Nov-2023 07:01:26 UTC] PHP Warning:  Undefined array key "email" in /home/sxs3330/public_html/wdm/Users.php on line 87
+[05-Nov-2023 07:01:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null in /home/sxs3330/public_html/wdm/Users.php:89
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(89): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 89
+[05-Nov-2023 07:01:28 UTC] PHP Warning:  Undefined array key "email" in /home/sxs3330/public_html/wdm/Users.php on line 87
+[05-Nov-2023 07:01:28 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null in /home/sxs3330/public_html/wdm/Users.php:89
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(89): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 89
+[06-Nov-2023 04:50:12 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'degree_type' at row 1 in /home/sxs3330/public_html/wdm/academic_program.php:36
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/academic_program.php(36): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/academic_program.php on line 36
+[06-Nov-2023 04:58:54 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 26
+[06-Nov-2023 04:58:54 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 27
+[06-Nov-2023 04:58:54 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 28
+[06-Nov-2023 04:58:54 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 29
+[06-Nov-2023 04:58:54 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 30
+[06-Nov-2023 05:00:22 UTC] PHP Warning:  Undefined array key "email" in /home/sxs3330/public_html/wdm/Users.php on line 87
+[06-Nov-2023 05:00:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null in /home/sxs3330/public_html/wdm/Users.php:89
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(89): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 89
+[06-Nov-2023 05:00:27 UTC] PHP Warning:  Undefined array key "email" in /home/sxs3330/public_html/wdm/Users.php on line 87
+[06-Nov-2023 05:00:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null in /home/sxs3330/public_html/wdm/Users.php:89
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(89): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 89
+[06-Nov-2023 19:44:02 UTC] PHP Warning:  Undefined variable $conn in /home/sxs3330/public_html/wdm/reports.php on line 15
+[06-Nov-2023 19:44:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/sxs3330/public_html/wdm/reports.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/sxs3330/public_html/wdm/reports.php on line 15
+[06-Nov-2023 19:44:08 UTC] PHP Warning:  Undefined variable $conn in /home/sxs3330/public_html/wdm/reports.php on line 15
+[06-Nov-2023 19:44:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/sxs3330/public_html/wdm/reports.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/sxs3330/public_html/wdm/reports.php on line 15
+[06-Nov-2023 19:46:16 UTC] PHP Warning:  Undefined variable $instructorsLoad in /home/sxs3330/public_html/wdm/reports.php on line 75
+[06-Nov-2023 20:18:32 UTC] PHP Warning:  Undefined variable $instructorsLoad in /home/sxs3330/public_html/wdm/reports.php on line 75
+[06-Nov-2023 20:18:45 UTC] PHP Warning:  Undefined variable $instructorsLoad in /home/sxs3330/public_html/wdm/reports.php on line 75
+[06-Nov-2023 20:18:48 UTC] PHP Warning:  Undefined variable $instructorsLoad in /home/sxs3330/public_html/wdm/reports.php on line 75
+[06-Nov-2023 20:18:56 UTC] PHP Warning:  Undefined variable $instructorsLoad in /home/sxs3330/public_html/wdm/reports.php on line 75
+[06-Nov-2023 20:19:34 UTC] PHP Parse error:  syntax error, unexpected token "case", expecting end of file in /home/sxs3330/public_html/wdm/reports.php on line 20
+[11-Nov-2023 07:05:09 UTC] PHP Warning:  Undefined array key "exam_title" in /home/sxs3330/public_html/wdm/Exams.php on line 29
+[11-Nov-2023 07:05:09 UTC] PHP Warning:  Undefined array key "deadline" in /home/sxs3330/public_html/wdm/Exams.php on line 30
+[11-Nov-2023 07:05:09 UTC] PHP Warning:  Undefined array key "total_marks" in /home/sxs3330/public_html/wdm/Exams.php on line 31
+[11-Nov-2023 07:05:09 UTC] PHP Warning:  Undefined array key "course_id" in /home/sxs3330/public_html/wdm/Exams.php on line 33
+[11-Nov-2023 07:05:09 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'exam_title' cannot be null in /home/sxs3330/public_html/wdm/Exams.php:34
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Exams.php(34): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Exams.php on line 34
+[11-Nov-2023 07:05:14 UTC] PHP Warning:  Undefined array key "exam_title" in /home/sxs3330/public_html/wdm/Exams.php on line 29
+[11-Nov-2023 07:05:14 UTC] PHP Warning:  Undefined array key "deadline" in /home/sxs3330/public_html/wdm/Exams.php on line 30
+[11-Nov-2023 07:05:14 UTC] PHP Warning:  Undefined array key "total_marks" in /home/sxs3330/public_html/wdm/Exams.php on line 31
+[11-Nov-2023 07:05:14 UTC] PHP Warning:  Undefined array key "course_id" in /home/sxs3330/public_html/wdm/Exams.php on line 33
+[11-Nov-2023 07:05:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'exam_title' cannot be null in /home/sxs3330/public_html/wdm/Exams.php:34
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Exams.php(34): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Exams.php on line 34
+[11-Nov-2023 07:14:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Parth' for key 'username' in /home/sxs3330/public_html/wdm/Users.php:125
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(125): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 125
+[11-Nov-2023 07:14:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Parth' for key 'username' in /home/sxs3330/public_html/wdm/Users.php:125
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(125): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 125
+[11-Nov-2023 07:14:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Parth' for key 'username' in /home/sxs3330/public_html/wdm/Users.php:125
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(125): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 125
+[11-Nov-2023 07:14:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Parth' for key 'username' in /home/sxs3330/public_html/wdm/Users.php:125
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(125): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 125
+[11-Nov-2023 07:14:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Parth' for key 'username' in /home/sxs3330/public_html/wdm/Users.php:125
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(125): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 125
+[11-Nov-2023 18:52:41 UTC] PHP Warning:  require(../../vendor/autoload.php): Failed to open stream: No such file or directory in /home/sxs3330/public_html/wdm/otp.php on line 3
+[11-Nov-2023 18:52:41 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/sxs3330/public_html/wdm/otp.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/sxs3330/public_html/wdm/otp.php on line 3
+[11-Nov-2023 18:52:44 UTC] PHP Warning:  require(../../vendor/autoload.php): Failed to open stream: No such file or directory in /home/sxs3330/public_html/wdm/otp.php on line 3
+[11-Nov-2023 18:52:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/sxs3330/public_html/wdm/otp.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/sxs3330/public_html/wdm/otp.php on line 3
+[11-Nov-2023 18:57:09 UTC] PHP Warning:  require(../../vendor/autoload.php): Failed to open stream: No such file or directory in /home/sxs3330/public_html/wdm/otp.php on line 3
+[11-Nov-2023 18:57:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/sxs3330/public_html/wdm/otp.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/sxs3330/public_html/wdm/otp.php on line 3
+[11-Nov-2023 18:57:17 UTC] PHP Warning:  require(../../vendor/autoload.php): Failed to open stream: No such file or directory in /home/sxs3330/public_html/wdm/otp.php on line 3
+[11-Nov-2023 18:57:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/sxs3330/public_html/wdm/otp.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/sxs3330/public_html/wdm/otp.php on line 3
+[11-Nov-2023 18:57:18 UTC] PHP Warning:  require(../../vendor/autoload.php): Failed to open stream: No such file or directory in /home/sxs3330/public_html/wdm/otp.php on line 3
+[11-Nov-2023 18:57:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/sxs3330/public_html/wdm/otp.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/sxs3330/public_html/wdm/otp.php on line 3
+[11-Nov-2023 18:57:18 UTC] PHP Warning:  require(../../vendor/autoload.php): Failed to open stream: No such file or directory in /home/sxs3330/public_html/wdm/otp.php on line 3
+[11-Nov-2023 18:57:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/sxs3330/public_html/wdm/otp.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/sxs3330/public_html/wdm/otp.php on line 3
+[11-Nov-2023 18:57:19 UTC] PHP Warning:  require(../../vendor/autoload.php): Failed to open stream: No such file or directory in /home/sxs3330/public_html/wdm/otp.php on line 3
+[11-Nov-2023 18:57:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/sxs3330/public_html/wdm/otp.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/sxs3330/public_html/wdm/otp.php on line 3
+[11-Nov-2023 18:57:19 UTC] PHP Warning:  require(../../vendor/autoload.php): Failed to open stream: No such file or directory in /home/sxs3330/public_html/wdm/otp.php on line 3
+[11-Nov-2023 18:57:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/sxs3330/public_html/wdm/otp.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/sxs3330/public_html/wdm/otp.php on line 3
+[11-Nov-2023 18:57:19 UTC] PHP Warning:  require(../../vendor/autoload.php): Failed to open stream: No such file or directory in /home/sxs3330/public_html/wdm/otp.php on line 3
+[11-Nov-2023 18:57:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/sxs3330/public_html/wdm/otp.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/sxs3330/public_html/wdm/otp.php on line 3
+[11-Nov-2023 19:20:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/otp.php on line 25
+[11-Nov-2023 19:20:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/otp.php on line 26
+[11-Nov-2023 19:20:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/otp.php on line 25
+[11-Nov-2023 19:20:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/otp.php on line 26
+[11-Nov-2023 19:20:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 26
+[11-Nov-2023 19:20:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 27
+[11-Nov-2023 19:20:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 28
+[11-Nov-2023 19:20:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 29
+[11-Nov-2023 19:20:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 30
+[11-Nov-2023 19:22:42 UTC] PHP Warning:  Undefined array key "email" in /home/sxs3330/public_html/wdm/Users.php on line 123
+[11-Nov-2023 19:22:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null in /home/sxs3330/public_html/wdm/Users.php:125
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(125): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 125
+[12-Nov-2023 09:55:40 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/sxs3330/public_html/wdm/auth.php on line 226
+[12-Nov-2023 09:55:43 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/sxs3330/public_html/wdm/auth.php on line 226
+[12-Nov-2023 09:57:51 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/sxs3330/public_html/wdm/auth.php on line 228
+[12-Nov-2023 09:57:53 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/sxs3330/public_html/wdm/auth.php on line 228
+[12-Nov-2023 09:58:02 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/sxs3330/public_html/wdm/auth.php on line 228
+[12-Nov-2023 09:58:24 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/sxs3330/public_html/wdm/auth.php on line 253
+[12-Nov-2023 09:58:26 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/sxs3330/public_html/wdm/auth.php on line 253
+[12-Nov-2023 09:59:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 09:59:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 09:59:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 8
+[12-Nov-2023 09:59:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 10
+[12-Nov-2023 09:59:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 09:59:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 09:59:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 8
+[12-Nov-2023 09:59:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 10
+[12-Nov-2023 09:59:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 09:59:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 09:59:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 8
+[12-Nov-2023 09:59:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 10
+[12-Nov-2023 09:59:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 09:59:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 09:59:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 8
+[12-Nov-2023 09:59:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 10
+[12-Nov-2023 10:00:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 10:00:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 10:00:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 8
+[12-Nov-2023 10:00:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 10
+[12-Nov-2023 10:00:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 10:00:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 10:00:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 8
+[12-Nov-2023 10:00:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 10
+[12-Nov-2023 10:07:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 10:07:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 10:07:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 8
+[12-Nov-2023 10:07:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 10
+[12-Nov-2023 10:08:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 10:08:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 10:08:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 8
+[12-Nov-2023 10:08:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 10
+[12-Nov-2023 10:08:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 10:08:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 10:08:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 8
+[12-Nov-2023 10:08:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 10
+[12-Nov-2023 10:08:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 10:08:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 10:08:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 8
+[12-Nov-2023 10:08:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 10
+[12-Nov-2023 10:08:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 10:08:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 10:08:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 8
+[12-Nov-2023 10:08:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 10
+[12-Nov-2023 10:11:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 5
+[12-Nov-2023 10:11:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 10:11:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 10:11:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 9
+[12-Nov-2023 10:11:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 5
+[12-Nov-2023 10:11:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 10:11:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 10:11:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 9
+[12-Nov-2023 10:11:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 5
+[12-Nov-2023 10:11:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 10:11:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 10:11:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 9
+[12-Nov-2023 10:11:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 5
+[12-Nov-2023 10:11:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 10:11:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 10:11:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 9
+[12-Nov-2023 10:22:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 4
+[12-Nov-2023 10:22:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 5
+[12-Nov-2023 10:22:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 10:22:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 10:22:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 4
+[12-Nov-2023 10:22:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 5
+[12-Nov-2023 10:22:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 10:22:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 10:22:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 4
+[12-Nov-2023 10:22:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 5
+[12-Nov-2023 10:22:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 10:22:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 10:24:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 4
+[12-Nov-2023 10:24:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 5
+[12-Nov-2023 10:24:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 10:24:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 10:24:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 4
+[12-Nov-2023 10:24:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 5
+[12-Nov-2023 10:24:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 10:24:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 10:25:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 4
+[12-Nov-2023 10:25:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 5
+[12-Nov-2023 10:25:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 10:25:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 10:25:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 4
+[12-Nov-2023 10:25:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 5
+[12-Nov-2023 10:25:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 10:25:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 10:25:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 4
+[12-Nov-2023 10:25:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 5
+[12-Nov-2023 10:25:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 10:25:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 10:25:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 4
+[12-Nov-2023 10:25:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 5
+[12-Nov-2023 10:25:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 10:25:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 10:25:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 4
+[12-Nov-2023 10:25:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 5
+[12-Nov-2023 10:25:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 10:25:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 10:25:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 4
+[12-Nov-2023 10:25:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 5
+[12-Nov-2023 10:25:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 10:25:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 10:25:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 4
+[12-Nov-2023 10:25:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 5
+[12-Nov-2023 10:25:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 10:25:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 10:25:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 4
+[12-Nov-2023 10:25:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 5
+[12-Nov-2023 10:25:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 10:25:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 10:25:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 4
+[12-Nov-2023 10:25:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 5
+[12-Nov-2023 10:25:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 10:25:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 10:26:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 4
+[12-Nov-2023 10:26:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 5
+[12-Nov-2023 10:26:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 10:26:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 10:26:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 4
+[12-Nov-2023 10:26:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 5
+[12-Nov-2023 10:26:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 10:26:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 10:26:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 4
+[12-Nov-2023 10:26:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 5
+[12-Nov-2023 10:26:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 10:26:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 10:26:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 4
+[12-Nov-2023 10:26:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 5
+[12-Nov-2023 10:26:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 10:26:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 10:26:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 4
+[12-Nov-2023 10:26:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 5
+[12-Nov-2023 10:26:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 10:26:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 10:26:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 4
+[12-Nov-2023 10:26:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 5
+[12-Nov-2023 10:26:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 10:26:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 10:27:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 4
+[12-Nov-2023 10:27:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 5
+[12-Nov-2023 10:27:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 10:27:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 10:27:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 4
+[12-Nov-2023 10:27:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 5
+[12-Nov-2023 10:27:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 10:27:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 10:27:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 4
+[12-Nov-2023 10:27:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 5
+[12-Nov-2023 10:27:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 10:27:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 10:34:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 4
+[12-Nov-2023 10:34:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 5
+[12-Nov-2023 10:34:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 10:34:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 10:34:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 4
+[12-Nov-2023 10:34:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 5
+[12-Nov-2023 10:34:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 10:34:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 10:34:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 4
+[12-Nov-2023 10:34:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 5
+[12-Nov-2023 10:34:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 10:34:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 10:37:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 4
+[12-Nov-2023 10:37:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 5
+[12-Nov-2023 10:37:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 10:37:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 10:37:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 4
+[12-Nov-2023 10:37:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 5
+[12-Nov-2023 10:37:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 10:37:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 10:37:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 4
+[12-Nov-2023 10:37:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 5
+[12-Nov-2023 10:37:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 10:37:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 10:39:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 4
+[12-Nov-2023 10:39:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 5
+[12-Nov-2023 10:39:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 10:39:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 10:39:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 4
+[12-Nov-2023 10:39:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 5
+[12-Nov-2023 10:39:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 6
+[12-Nov-2023 10:39:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sxs3330/public_html/wdm/auth.php:1) in /home/sxs3330/public_html/wdm/auth.php on line 7
+[12-Nov-2023 11:04:14 UTC] PHP Fatal error:  Uncaught TypeError: array_merge(): Argument #2 must be of type array, bool given in /home/sxs3330/public_html/wdm/Users.php:53
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(53): array_merge(Array, false)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 53
+[12-Nov-2023 11:04:14 UTC] PHP Fatal error:  Uncaught TypeError: array_merge(): Argument #2 must be of type array, bool given in /home/sxs3330/public_html/wdm/Users.php:53
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(53): array_merge(Array, false)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 53
+[12-Nov-2023 11:04:42 UTC] PHP Warning:  Undefined array key "exam_title" in /home/sxs3330/public_html/wdm/Exams.php on line 29
+[12-Nov-2023 11:04:42 UTC] PHP Warning:  Undefined array key "deadline" in /home/sxs3330/public_html/wdm/Exams.php on line 30
+[12-Nov-2023 11:04:42 UTC] PHP Warning:  Undefined array key "total_marks" in /home/sxs3330/public_html/wdm/Exams.php on line 31
+[12-Nov-2023 11:04:42 UTC] PHP Warning:  Undefined array key "course_id" in /home/sxs3330/public_html/wdm/Exams.php on line 33
+[12-Nov-2023 11:04:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'exam_title' cannot be null in /home/sxs3330/public_html/wdm/Exams.php:34
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Exams.php(34): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Exams.php on line 34
+[12-Nov-2023 22:00:22 UTC] PHP Warning:  Undefined array key "exam_title" in /home/sxs3330/public_html/wdm/Exams.php on line 29
+[12-Nov-2023 22:00:22 UTC] PHP Warning:  Undefined array key "deadline" in /home/sxs3330/public_html/wdm/Exams.php on line 30
+[12-Nov-2023 22:00:22 UTC] PHP Warning:  Undefined array key "total_marks" in /home/sxs3330/public_html/wdm/Exams.php on line 31
+[12-Nov-2023 22:00:22 UTC] PHP Warning:  Undefined array key "course_id" in /home/sxs3330/public_html/wdm/Exams.php on line 33
+[12-Nov-2023 22:00:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'exam_title' cannot be null in /home/sxs3330/public_html/wdm/Exams.php:34
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Exams.php(34): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Exams.php on line 34
+[13-Nov-2023 05:10:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 26
+[13-Nov-2023 05:10:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 27
+[13-Nov-2023 05:10:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 28
+[13-Nov-2023 05:10:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 29
+[13-Nov-2023 05:10:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 30
+[13-Nov-2023 05:18:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 89
+[13-Nov-2023 05:18:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 90
+[13-Nov-2023 05:18:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 91
+[13-Nov-2023 05:18:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 92
+[13-Nov-2023 05:19:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 89
+[13-Nov-2023 05:19:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 90
+[13-Nov-2023 05:19:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 91
+[13-Nov-2023 05:19:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 92
+[13-Nov-2023 05:21:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 89
+[13-Nov-2023 05:21:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 90
+[13-Nov-2023 05:21:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 91
+[13-Nov-2023 05:21:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 92
+[13-Nov-2023 05:21:10 UTC] PHP Warning:  Undefined variable $confirmPassword in /home/sxs3330/public_html/wdm/register.php on line 104
+[13-Nov-2023 05:21:11 UTC] PHP Warning:  Undefined variable $confirmPassword in /home/sxs3330/public_html/wdm/register.php on line 104
+[13-Nov-2023 05:24:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 89
+[13-Nov-2023 05:24:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 90
+[13-Nov-2023 05:24:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 91
+[13-Nov-2023 05:24:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 92
+[13-Nov-2023 05:26:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 89
+[13-Nov-2023 05:26:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 90
+[13-Nov-2023 05:26:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 91
+[13-Nov-2023 05:26:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 92
+[13-Nov-2023 05:26:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 93
+[13-Nov-2023 05:26:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 89
+[13-Nov-2023 05:26:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 90
+[13-Nov-2023 05:26:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 91
+[13-Nov-2023 05:26:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 92
+[13-Nov-2023 05:26:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 93
+[13-Nov-2023 06:26:18 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/otp.php on line 25
+[13-Nov-2023 06:26:18 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/otp.php on line 26
+[13-Nov-2023 06:27:03 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/otp.php on line 25
+[13-Nov-2023 06:27:03 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/otp.php on line 26
+[13-Nov-2023 06:27:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/otp.php on line 25
+[13-Nov-2023 06:27:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/otp.php on line 26
+[13-Nov-2023 06:27:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 89
+[13-Nov-2023 06:27:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 90
+[13-Nov-2023 06:27:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 91
+[13-Nov-2023 06:27:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 92
+[13-Nov-2023 06:27:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 93
+[13-Nov-2023 06:55:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/otp.php on line 25
+[13-Nov-2023 06:55:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/otp.php on line 26
+[13-Nov-2023 06:55:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/otp.php on line 25
+[13-Nov-2023 06:55:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/otp.php on line 26
+[13-Nov-2023 06:55:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 89
+[13-Nov-2023 06:55:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 90
+[13-Nov-2023 06:55:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 91
+[13-Nov-2023 06:55:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 92
+[13-Nov-2023 06:55:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/register.php on line 93
+[13-Nov-2023 19:16:04 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'username' cannot be null in /home/sxs3330/public_html/wdm/Users.php:125
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(125): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 125
+[13-Nov-2023 19:16:05 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'username' cannot be null in /home/sxs3330/public_html/wdm/Users.php:125
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(125): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 125
+[13-Nov-2023 19:19:05 UTC] PHP Fatal error:  Uncaught TypeError: array_merge(): Argument #2 must be of type array, bool given in /home/sxs3330/public_html/wdm/Users.php:53
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(53): array_merge(Array, false)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 53
+[13-Nov-2023 19:22:36 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Sumeghana Reddy' for key 'username' in /home/sxs3330/public_html/wdm/Users.php:125
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(125): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 125
+[13-Nov-2023 19:24:25 UTC] PHP Fatal error:  Uncaught TypeError: array_merge(): Argument #2 must be of type array, bool given in /home/sxs3330/public_html/wdm/Users.php:53
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(53): array_merge(Array, false)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 53
+[13-Nov-2023 21:59:07 UTC] PHP Fatal error:  Uncaught TypeError: array_merge(): Argument #2 must be of type array, bool given in /home/sxs3330/public_html/wdm/Users.php:53
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(53): array_merge(Array, false)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 53
+[13-Nov-2023 22:04:04 UTC] PHP Fatal error:  Uncaught TypeError: array_merge(): Argument #2 must be of type array, bool given in /home/sxs3330/public_html/wdm/Users.php:53
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(53): array_merge(Array, false)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 53
+[25-Nov-2023 22:41:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list' in /home/sxs3330/public_html/wdm/retrieve_users.php:28
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/retrieve_users.php(28): PDOStatement->execute()
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/retrieve_users.php on line 28
+[25-Nov-2023 22:42:13 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Columnusername' in 'field list' in /home/sxs3330/public_html/wdm/retrieve_users.php:28
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/retrieve_users.php(28): PDOStatement->execute()
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/retrieve_users.php on line 28
+[26-Nov-2023 07:27:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '' for column 'deadline' at row 1 in /home/sxs3330/public_html/wdm/Exams.php:34
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Exams.php(34): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Exams.php on line 34
+[26-Nov-2023 12:03:44 UTC] PHP Fatal error:  Uncaught TypeError: array_merge(): Argument #2 must be of type array, bool given in /home/sxs3330/public_html/wdm/Users.php:53
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(53): array_merge(Array, false)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 53
+[26-Nov-2023 12:03:44 UTC] PHP Fatal error:  Uncaught TypeError: array_merge(): Argument #2 must be of type array, bool given in /home/sxs3330/public_html/wdm/Users.php:53
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(53): array_merge(Array, false)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 53
+[26-Nov-2023 12:04:01 UTC] PHP Fatal error:  Uncaught TypeError: array_merge(): Argument #2 must be of type array, bool given in /home/sxs3330/public_html/wdm/Users.php:53
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(53): array_merge(Array, false)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 53
+[26-Nov-2023 12:04:01 UTC] PHP Fatal error:  Uncaught TypeError: array_merge(): Argument #2 must be of type array, bool given in /home/sxs3330/public_html/wdm/Users.php:53
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(53): array_merge(Array, false)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 53
+[26-Nov-2023 12:07:22 UTC] PHP Fatal error:  Uncaught TypeError: array_merge(): Argument #2 must be of type array, bool given in /home/sxs3330/public_html/wdm/Users.php:53
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(53): array_merge(Array, false)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 53
+[26-Nov-2023 12:07:22 UTC] PHP Fatal error:  Uncaught TypeError: array_merge(): Argument #2 must be of type array, bool given in /home/sxs3330/public_html/wdm/Users.php:53
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(53): array_merge(Array, false)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 53
+[26-Nov-2023 15:10:46 UTC] PHP Warning:  Undefined variable $apiKey in /home/sxs3330/public_html/wdm/ai-tutor.php on line 13
+[27-Nov-2023 03:33:15 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sumanthsurneni@gmail.com' for key 'email' in /home/sxs3330/public_html/wdm/Users.php:125
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(125): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 125
+[27-Nov-2023 03:33:17 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sumanthsurneni@gmail.com' for key 'email' in /home/sxs3330/public_html/wdm/Users.php:125
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(125): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 125
+[27-Nov-2023 03:33:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sumanthsurneni@gmail.com' for key 'email' in /home/sxs3330/public_html/wdm/Users.php:125
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(125): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 125
+[27-Nov-2023 03:33:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sumanthsurneni@gmail.com' for key 'email' in /home/sxs3330/public_html/wdm/Users.php:125
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(125): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 125
+[27-Nov-2023 03:33:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sumanthsurneni@gmail.com' for key 'email' in /home/sxs3330/public_html/wdm/Users.php:125
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(125): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 125
+[27-Nov-2023 03:33:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sumanthsurneni@gmail.com' for key 'email' in /home/sxs3330/public_html/wdm/Users.php:125
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(125): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 125
+[27-Nov-2023 03:33:19 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sumanthsurneni@gmail.com' for key 'email' in /home/sxs3330/public_html/wdm/Users.php:125
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(125): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 125
+[27-Nov-2023 03:33:19 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sumanthsurneni@gmail.com' for key 'email' in /home/sxs3330/public_html/wdm/Users.php:125
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(125): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 125
+[27-Nov-2023 03:33:19 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sumanthsurneni@gmail.com' for key 'email' in /home/sxs3330/public_html/wdm/Users.php:125
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(125): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 125
+[27-Nov-2023 03:33:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sumanthsurneni@gmail.com' for key 'email' in /home/sxs3330/public_html/wdm/Users.php:125
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(125): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 125
+[27-Nov-2023 03:33:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sumanthsurneni@gmail.com' for key 'email' in /home/sxs3330/public_html/wdm/Users.php:125
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(125): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 125
+[27-Nov-2023 03:33:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sumanthsurneni@gmail.com' for key 'email' in /home/sxs3330/public_html/wdm/Users.php:125
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(125): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 125
+[27-Nov-2023 03:33:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sumanthsurneni@gmail.com' for key 'email' in /home/sxs3330/public_html/wdm/Users.php:125
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(125): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 125
+[27-Nov-2023 03:33:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sumanthsurneni@gmail.com' for key 'email' in /home/sxs3330/public_html/wdm/Users.php:125
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(125): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 125
+[27-Nov-2023 03:34:36 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sumanthsurneni@gmail.com' for key 'email' in /home/sxs3330/public_html/wdm/Users.php:125
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(125): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 125
+[27-Nov-2023 03:34:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sumanthsurneni@gmail.com' for key 'email' in /home/sxs3330/public_html/wdm/Users.php:125
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(125): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 125
+[27-Nov-2023 03:34:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sumanthsurneni@gmail.com' for key 'email' in /home/sxs3330/public_html/wdm/Users.php:125
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(125): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 125
+[27-Nov-2023 03:34:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sumanthsurneni@gmail.com' for key 'email' in /home/sxs3330/public_html/wdm/Users.php:125
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(125): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 125
+[27-Nov-2023 03:34:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sumanthsurneni@gmail.com' for key 'email' in /home/sxs3330/public_html/wdm/Users.php:125
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(125): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 125
+[27-Nov-2023 03:34:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sumanthsurneni@gmail.com' for key 'email' in /home/sxs3330/public_html/wdm/Users.php:125
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(125): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 125
+[27-Nov-2023 03:34:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sumanthsurneni@gmail.com' for key 'email' in /home/sxs3330/public_html/wdm/Users.php:125
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(125): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 125
+[27-Nov-2023 03:34:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sumanthsurneni@gmail.com' for key 'email' in /home/sxs3330/public_html/wdm/Users.php:125
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(125): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 125
+[27-Nov-2023 03:34:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sumanthsurneni@gmail.com' for key 'email' in /home/sxs3330/public_html/wdm/Users.php:125
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(125): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 125
+[27-Nov-2023 03:34:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sumanthsurneni@gmail.com' for key 'email' in /home/sxs3330/public_html/wdm/Users.php:125
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(125): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 125
+[27-Nov-2023 03:34:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sumanthsurneni@gmail.com' for key 'email' in /home/sxs3330/public_html/wdm/Users.php:125
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(125): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 125
+[27-Nov-2023 03:34:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sumanthsurneni@gmail.com' for key 'email' in /home/sxs3330/public_html/wdm/Users.php:125
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(125): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 125
+[27-Nov-2023 03:34:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sumanthsurneni@gmail.com' for key 'email' in /home/sxs3330/public_html/wdm/Users.php:125
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(125): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 125
+[27-Nov-2023 04:23:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/otp.php on line 25
+[27-Nov-2023 04:23:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/otp.php on line 26
+[27-Nov-2023 04:23:55 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/otp.php on line 25
+[27-Nov-2023 04:23:55 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/otp.php on line 26
+[27-Nov-2023 04:26:11 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/otp.php on line 25
+[27-Nov-2023 04:26:11 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/otp.php on line 26
+[27-Nov-2023 04:27:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/otp.php on line 25
+[27-Nov-2023 04:27:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/otp.php on line 26
+[27-Nov-2023 04:27:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/otp.php on line 25
+[27-Nov-2023 04:27:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sxs3330/public_html/wdm/otp.php on line 26
+[27-Nov-2023 04:42:22 UTC] PHP Fatal error:  Uncaught TypeError: array_merge(): Argument #2 must be of type array, bool given in /home/sxs3330/public_html/wdm/Users.php:53
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(53): array_merge(Array, false)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 53
+[27-Nov-2023 04:42:22 UTC] PHP Fatal error:  Uncaught TypeError: array_merge(): Argument #2 must be of type array, bool given in /home/sxs3330/public_html/wdm/Users.php:53
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(53): array_merge(Array, false)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 53
+[27-Nov-2023 04:42:24 UTC] PHP Fatal error:  Uncaught TypeError: array_merge(): Argument #2 must be of type array, bool given in /home/sxs3330/public_html/wdm/Users.php:53
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(53): array_merge(Array, false)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 53
+[27-Nov-2023 04:42:24 UTC] PHP Fatal error:  Uncaught TypeError: array_merge(): Argument #2 must be of type array, bool given in /home/sxs3330/public_html/wdm/Users.php:53
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(53): array_merge(Array, false)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 53
+[27-Nov-2023 04:42:25 UTC] PHP Fatal error:  Uncaught TypeError: array_merge(): Argument #2 must be of type array, bool given in /home/sxs3330/public_html/wdm/Users.php:53
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(53): array_merge(Array, false)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 53
+[27-Nov-2023 04:42:25 UTC] PHP Fatal error:  Uncaught TypeError: array_merge(): Argument #2 must be of type array, bool given in /home/sxs3330/public_html/wdm/Users.php:53
+Stack trace:
+#0 /home/sxs3330/public_html/wdm/Users.php(53): array_merge(Array, false)
+#1 {main}
+  thrown in /home/sxs3330/public_html/wdm/Users.php on line 53
